@@ -4,10 +4,12 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
   overflow-x: hidden;
+  background: url("./background.png") no-repeat;
+  background-size: cover;
+  color: whitesmoke;
 }
+
 #root {
   min-height: 100vh;
   display: flex;
@@ -93,7 +95,9 @@ h1 {
 
 .member-page form h5 {
   margin-top: 0;
-  color: #7700ee;
+  background: -webkit-linear-gradient(#dc1fff, #101921);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .member-page form .card > div {
