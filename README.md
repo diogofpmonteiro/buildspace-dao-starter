@@ -21,4 +21,4 @@ This project consisted of :
 - Deploying a governance contract + treasury.
 - Building a dapp that lets people connect their wallet, get a NFT, see a DAO Dashboard where they can see other members + actually vote on proposals that are executed directly by the governance contract.
 
-Check it out at: degen-dao.netlify.app
+Check it out at:
